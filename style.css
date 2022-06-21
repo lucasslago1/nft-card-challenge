@@ -1,121 +1,112 @@
 body {
-    background-color: var(--very-dark-blue-main);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--very-dark-blue-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #container {
-    background: var(--very-dark-blue-card);
-    color: white;
-    border-radius: 1em;
-    padding: 2em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-     
+  background: var(--very-dark-blue-card);
+  color: white;
+  border-radius: 1em;
+  padding: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .nft-photo {
-    border-radius: 1em;
-    width: 350px;
- }
+  border-radius: 1em;
+  width: 350px;
+}
 
- h1 {
-    color: var(--white);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 21px;
-    padding: 20px 0;
-    display: inline-block;
-    font-weight: normal;
- }
-
+h1 {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 21px;
+  padding: 20px 0;
+  display: inline-block;
+  font-weight: normal;
+}
 
 .light-text {
-    color: var(--soft-blue)
+  color: var(--soft-blue);
 }
 .text-white {
-    color: var(--white)
+  color: var(--white);
 }
 .cyan-text {
-    color: var(--cyan);
+  color: var(--cyan);
 }
 
 #nft-info {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
 }
 
-#eth-value, #eth-expire-time {
-    display: flex;
-    align-items: center;
-    
+#eth-value,
+#eth-expire-time {
+  display: flex;
+  align-items: center;
 }
 
 #eth-value span {
-    padding-left: 7px;
+  padding-left: 7px;
 }
 
 #eth-expire-time span {
-    padding-left: 7px;
+  padding-left: 7px;
 }
 
 #profile {
-    width: 10%;
-    border: 1px solid white;
-    border-radius: 50%
+  width: 10%;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 #footer-container {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .ajust-margin {
-    margin-left: 4%;
+  margin-left: 4%;
 }
 
+hr {
+  border: 1px solid var(--very-dark-blue-line);
 
-
-hr{
-    
-   
-    border: 1px solid var(--very-dark-blue-line);
-   
-    color:#000;
-    background-color:#000;
-    margin-bottom: 20px;
-   }
-
-.text-white:hover{
-   color: var(--cyan);
-    cursor: pointer;
-    transition: 1s;
+  color: #000;
+  background-color: #000;
+  margin-bottom: 20px;
 }
 
-
-
+.text-white:hover {
+  color: var(--cyan);
+  cursor: pointer;
+  transition: 1s;
+}
 
 .filter-color:hover {
-    filter: brightness(0) saturate(100%) invert(79%) sepia(95%) saturate(690%) hue-rotate(99deg) brightness(102%) contrast(104%) ;
-    
+  filter: brightness(0) saturate(100%) invert(79%) sepia(95%) saturate(690%)
+    hue-rotate(99deg) brightness(102%) contrast(104%);
 }
 
 .ajust-eye {
-    position: absolute;
-    width: 50px;
-    left: 44.5%;
-    top: 28%;
-    display: block;
-    
+  position: absolute;
+  width: 50px;
+  left: 44.5%;
+  top: 28%;
+  display: none;
 }
 
 .ajust-eye:hover {
-    display: block;
+  display: block;
 }
