@@ -18,7 +18,7 @@ body {
      
 }
 
-#nft-photo {
+.nft-photo {
     border-radius: 1em;
     width: 350px;
  }
@@ -45,7 +45,7 @@ body {
 }
 
 #nft-info {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 0;
@@ -66,7 +66,7 @@ body {
 }
 
 #profile {
-    width: 6%;
+    width: 10%;
     border: 1px solid white;
     border-radius: 50%
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .ajust-margin {
-    margin-left: 2.5%;
+    margin-left: 4%;
 }
 
 
@@ -100,15 +100,22 @@ hr{
 }
 
 
-.img-overlay {
-    position: absolute;
-    width: 50px;
-    left: 46%;
-    top: 33%;
-    display: none;
+
+
+.filter-color:hover {
+    filter: brightness(0) saturate(100%) invert(79%) sepia(95%) saturate(690%) hue-rotate(99deg) brightness(102%) contrast(104%) ;
+    
 }
 
-#nft-photo-container:hover img-overlay{
+.ajust-eye {
+    position: absolute;
+    width: 50px;
+    left: 44.5%;
+    top: 28%;
     display: block;
-    cursor: pointer;
+    
+}
+
+.ajust-eye:hover {
+    display: block;
 }
